@@ -20,84 +20,87 @@
       <h1>Weather Dashboard</h1>
     </header>
 
-    <div>
-      <h2>Search for a city:</h2>
-      <input type="text" id="input-city" placeholder="Los Angeles" />
-      <button id="search-btn">Search</button>
-      <ul id="past-searches"></ul>
-    </div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-3">
+          <h2>Search for a city:</h2>
+          <input type="text" id="input-city" placeholder="Los Angeles" />
+          <button id="search-btn">Search</button>
+          <ul id="past-searches"></ul>
+        </div>
 
-    <div class="col-9">
-      <div class="container-fluid">
-        <div id="current-weather">
-          <h2 id="city-name"></h2>
-          <p>Temp: <span id="temp"></span></p>
-          <p>Wind: <span id="wind"></span></p>
-          <p>Humidity: <span id="humidity"></span></p>
-          <p>UV Index: <span id="uv-index"></span></p>
+        <div class="col-9">
+          <div class="container-fluid">
+            <div id="current-weather">
+              <h2 id="city-name"></h2>
+              <p>Temp: <span id="temp"></span></p>
+              <p>Wind: <span id="wind"></span></p>
+              <p>Humidity: <span id="humidity"></span></p>
+              <p>UV Index: <span id="uv-index"></span></p>
+            </div>
+          </div>
+
+          <div id="five-days" class="row">
+            <h2>5-Day Forecast:</h2>
+            <div
+              class="card custom-card"
+              style="width: 15rem; margin-left: 1.6rem; height: 15rem"
+            >
+              <div class="card-body">
+                <h4 id="one-day"></h4>
+                <p id="one-day-temp" class="card-text">Temp:</p>
+                <p id="one-day-wind" class="card-text">Wind:</p>
+                <p id="one-day-humidity" class="card-text">Humidity:</p>
+              </div>
+            </div>
+            <div
+              class="card custom-card"
+              style="width: 15rem; margin-left: 1.6rem; height: 15rem"
+            >
+              <div class="card-body">
+                <h4 id="two-day"></h4>
+                <p id="two-day-temp" class="card-text">Temp:</p>
+                <p id="two-day-wind" class="card-text">Wind:</p>
+                <p id="two-day-humidity" class="card-text">Humidity:</p>
+              </div>
+            </div>
+            <div
+              class="card custom-card"
+              style="width: 15rem; margin-left: 1.6rem; height: 15rem"
+            >
+              <div class="card-body">
+                <h4 id="three-day"></h4>
+                <p id="three-day-temp" class="card-text">Temp:</p>
+                <p id="three-day-wind" class="card-text">Wind:</p>
+                <p id="three-day-humidity" class="card-text">Humidity:</p>
+              </div>
+            </div>
+            <div
+              class="card custom-card"
+              style="width: 15rem; margin-left: 1.6rem; height: 15rem"
+            >
+              <div class="card-body">
+                <h4 id="four-day"></h4>
+                <p id="four-day-temp" class="card-text">Temp:</p>
+                <p id="four-day-wind" class="card-text">Wind:</p>
+                <p id="four-day-humidity" class="card-text">Humidity:</p>
+              </div>
+            </div>
+            <div
+              class="card custom-card"
+              style="width: 15rem; margin-left: 1.6rem; height: 15rem"
+            >
+              <div class="card-body">
+                <h4 id="five-day"></h4>
+                <p id="five-day-temp" class="card-text">Temp:</p>
+                <p id="five-day-wind" class="card-text">Wind:</p>
+                <p id="five-day-humidity" class="card-text">Humidity:</p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-
-    <div id="five-days" class="row">
-      <h2>5-Day Forecast:</h2>
-      <div
-        class="card custom-card"
-        style="width: 300px; margin-left: 25px; height: 300px"
-      >
-        <div class="card-body">
-          <h4 id="one-day"></h4>
-          <p id="one-day-temp" class="card-text">Temp:</p>
-          <p id="one-day-wind" class="card-text">Wind:</p>
-          <p id="one-day-humidity" class="card-text">Humidity:</p>
-        </div>
-      </div>
-      <div
-        class="card custom-card"
-        style="width: 300px; margin-left: 25px; height: 300px"
-      >
-        <div class="card-body">
-          <h4 id="two-day"></h4>
-          <p id="two-day-temp" class="card-text">Temp:</p>
-          <p id="two-day-wind" class="card-text">Wind:</p>
-          <p id="two-day-humidity" class="card-text">Humidity:</p>
-        </div>
-      </div>
-      <div
-        class="card custom-card"
-        style="width: 300px; margin-left: 25px; height: 300px"
-      >
-        <div class="card-body">
-          <h4 id="three-day"></h4>
-          <p id="three-day-temp" class="card-text">Temp:</p>
-          <p id="three-day-wind" class="card-text">Wind:</p>
-          <p id="three-day-humidity" class="card-text">Humidity:</p>
-        </div>
-      </div>
-      <div
-        class="card custom-card"
-        style="width: 300px; margin-left: 25px; height: 300px"
-      >
-        <div class="card-body">
-          <h4 id="four-day"></h4>
-          <p id="four-day-temp" class="card-text">Temp:</p>
-          <p id="four-day-wind" class="card-text">Wind:</p>
-          <p id="four-day-humidity" class="card-text">Humidity:</p>
-        </div>
-      </div>
-      <div
-        class="card custom-card"
-        style="width: 300px; margin-left: 25px; height: 300px"
-      >
-        <div class="card-body">
-          <h4 id="five-day"></h4>
-          <p id="five-day-temp" class="card-text">Temp:</p>
-          <p id="five-day-wind" class="card-text">Wind:</p>
-          <p id="five-day-humidity" class="card-text">Humidity:</p>
-        </div>
-      </div>
-    </div>
-
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"
       integrity="sha512-qTXRIMyZIFb8iQcfjXWCO8+M5Tbc38Qi5WzdPOYZHIlZpzBHG3L3by84BBBOiRGiEb7KKtAOAs5qYdUiZiQNNQ=="
