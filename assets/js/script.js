@@ -75,9 +75,9 @@ function weatherInfo() {
 
                     temp.text(data.current.temp + "°F")
                     wind.text(data.current.wind_speed + " MPH")
-                    humidity.text(data.current.humidity + " %")
+                    humidity.text(data.current.humidity + "%")
                     uvIndex.text(data.current.uvi)
-                    time = moment().add(i + 1, "d").format("(M/D/YYYY)")
+                    time = moment().add(i + 1, "d").format("M/D/YYYY")
 
 
                 })
@@ -145,33 +145,33 @@ pastSearches.on("click", function (event) {
 
                         temp.text(data.current.temp + "°F")
                         wind.text(data.current.wind_speed + " MPH")
-                        humidity.text(data.current.humidity + " %")
-                        time = moment().add(i + 1, "d").format("(M/D/YYYY)")
+                        humidity.text(data.current.humidity + "%")
+                        time = moment().add(i + 1, "d").format("M/D/YYYY")
 
-                        oneDay.text(moment().add(1, "d").format("(M/D/YYYY)"))
+                        oneDay.text(moment().add(1, "d").format("M/D/YYYY"))
                         oneTemp.text("Temp: " + data.daily[0].temp.day + "°F")
                         oneWind.text("Wind: " + data.daily[0].wind_speed + " MPH")
-                        oneHumidity.text("Humidity: " + data.daily[0].humidity + " %")
+                        oneHumidity.text("Humidity: " + data.daily[0].humidity + "%")
 
-                        twoDay.text(moment().add(2, "d").format("(M/D/YYYY)"))
+                        twoDay.text(moment().add(2, "d").format("M/D/YYYY"))
                         twoTemp.text("Temp: " + data.daily[1].temp.day + "°F")
                         twoWind.text("Wind: " + data.daily[1].wind_speed + " MPH")
-                        twoHumidity.text("Humidity: " + data.daily[1].humidity + " %")
+                        twoHumidity.text("Humidity: " + data.daily[1].humidity + "%")
 
-                        threeDay.text(moment().add(3, "d").format("(M/D/YYYY)"))
+                        threeDay.text(moment().add(3, "d").format("M/D/YYYY"))
                         threeTemp.text("Temp: " + data.daily[2].temp.day + "°F")
                         threeWind.text("Wind: " + data.daily[2].wind_speed + " MPH")
-                        threeHumidity.text("Humidity: " + data.daily[2].humidity + " %")
+                        threeHumidity.text("Humidity: " + data.daily[2].humidity + "%")
 
-                        fourDay.text(moment().add(4, "d").format("(M/D/YYYY)"))
+                        fourDay.text(moment().add(4, "d").format("M/D/YYYY"))
                         fourTemp.text("Temp: " + data.daily[3].temp.day + "°F")
                         fourWind.text("Wind: " + data.daily[3].wind_speed + " MPH")
-                        fourHumidity.text("Humidity: " + data.daily[3].humidity + " %")
+                        fourHumidity.text("Humidity: " + data.daily[3].humidity + "%")
 
-                        fiveDay.text(moment().add(5, "d").format("(M/D/YYYY)"))
+                        fiveDay.text(moment().add(5, "d").format("M/D/YYYY"))
                         fiveTemp.text("Temp: " + data.daily[4].temp.day + "°F")
                         fiveWind.text("Wind: " + data.daily[4].wind_speed + " MPH")
-                        fiveHumidity.text("Humidity: " + data.daily[4].humidity + " %")
+                        fiveHumidity.text("Humidity: " + data.daily[4].humidity + "%")
                     })
             })
     }

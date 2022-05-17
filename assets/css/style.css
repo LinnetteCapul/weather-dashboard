@@ -1,0 +1,48 @@
+body {
+  min-height: 100%;
+}
+
+#header {
+  padding-top: 0.6rem;
+  font-size: 250%;
+  width: 100%;
+  height: 6rem;
+  text-align: center;
+  background-color: midnightblue;
+  color: whitesmoke;
+}
+
+#searchBtn {
+  margin-top: 1.25rem;
+  width: 25rem;
+}
+
+#cityInput {
+  width: 25rem;
+}
+
+#currentWeather {
+  height: 25rem;
+  font-size: 125%;
+  border: 0.2rem solid black;
+  padding-bottom: 0.625rem;
+}
+
+ul {
+  padding-left: 0;
+}
+
+.li {
+  background-color: silver;
+  border-radius: 0.3rem;
+  text-align: center;
+  margin-top: 0.625;
+  padding: 0.2rem;
+  font-size: 110%;
+}
+
+.custom-card {
+  background-color: steelblue;
+  color: white;
+  font-size: 125%;
+}
