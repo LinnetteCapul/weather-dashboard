@@ -12,16 +12,16 @@ body {
   color: whitesmoke;
 }
 
-#searchBtn {
+#search-btn {
   margin-top: 1.25rem;
   width: 25rem;
 }
 
-#cityInput {
+#input-city {
   width: 25rem;
 }
 
-#currentWeather {
+#current-weather {
   height: 25rem;
   font-size: 125%;
   border: 0.2rem solid black;
@@ -45,4 +45,39 @@ ul {
   background-color: steelblue;
   color: white;
   font-size: 125%;
+}
+
+.greenUV {
+  background-color: limegreen;
+  width: 13rem;
+  padding: 0.3rem;
+  border-radius: 0.3rem;
+}
+
+.yellowUV {
+  background-color: yellow;
+  width: 13rem;
+  padding: 0.3rem;
+  border-radius: 0.3rem;
+}
+
+.orangeUV {
+  background-color: orange;
+  width: 13rem;
+  padding: 0.3rem;
+  border-radius: 0.3rem;
+}
+
+.redUV {
+  background-color: red;
+  width: 13rem;
+  padding: 0.3rem;
+  border-radius: 0.3rem;
+}
+
+.purpleUV {
+  background-color: purple;
+  width: 13rem;
+  padding: 0.3rem;
+  border-radius: 0.3rem;
 }
