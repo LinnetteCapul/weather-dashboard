@@ -1,0 +1,83 @@
+body {
+  min-height: 100%;
+}
+
+#header {
+  padding-top: 0.6rem;
+  font-size: 250%;
+  width: 100%;
+  height: 6rem;
+  text-align: center;
+  background-color: midnightblue;
+  color: whitesmoke;
+}
+
+#search-btn {
+  margin-top: 1.25rem;
+  width: 25rem;
+}
+
+#input-city {
+  width: 25rem;
+}
+
+#current-weather {
+  height: 25rem;
+  font-size: 125%;
+  border: 0.2rem solid black;
+  padding-bottom: 0.625rem;
+}
+
+ul {
+  padding-left: 0;
+}
+
+.li {
+  background-color: silver;
+  border-radius: 0.3rem;
+  text-align: center;
+  margin-top: 0.625;
+  padding: 0.2rem;
+  font-size: 110%;
+}
+
+.custom-card {
+  background-color: steelblue;
+  color: white;
+  font-size: 125%;
+}
+
+.greenUV {
+  background-color: limegreen;
+  width: 13rem;
+  padding: 0.3rem;
+  border-radius: 0.3rem;
+}
+
+.yellowUV {
+  background-color: yellow;
+  width: 13rem;
+  padding: 0.3rem;
+  border-radius: 0.3rem;
+}
+
+.orangeUV {
+  background-color: orange;
+  width: 13rem;
+  padding: 0.3rem;
+  border-radius: 0.3rem;
+}
+
+.redUV {
+  background-color: red;
+  width: 13rem;
+  padding: 0.3rem;
+  border-radius: 0.3rem;
+}
+
+.purpleUV {
+  background-color: purple;
+  width: 13rem;
+  padding: 0.3rem;
+  border-radius: 0.3rem;
+}
