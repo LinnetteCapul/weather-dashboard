@@ -36,10 +36,10 @@ Please contact me at either of the following for any inquiries about the project
 
 ## Screenshots
 
-![weather-dashboard-screenshot01]()
+![weather-dashboard-screenshot01](https://raw.githubusercontent.com/LinnetteCapul/weathering-with-you-dashboard/develop/assets/images/weather-dashboard-screenshot01.JPG)
 Opening page of weather dashboard application showing some already saved cities searched by a previous user.
 
   <br>
   
-  ![weather-dashboard-screenshot02]()
+  ![weather-dashboard-screenshot02](https://raw.githubusercontent.com/LinnetteCapul/weathering-with-you-dashboard/develop/assets/images/weather-dashboard-screenshot02.JPG)
   Displays the current weather conditions in a city and the upcoming forecast for the next five days.
